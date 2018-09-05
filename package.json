@@ -8,15 +8,15 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.0.1",
+    "@nuxtjs/axios": "latest",
     "@nuxtjs/pwa": "latest",
-    "nuxt": "latest",
-    "vuetify": "^1.0.2"
+    "@nuxtjs/vuetify": "latest",
+    "nuxt": "latest"
   },
   "devDependencies": {
-    "pug": "^2.0.0-rc.4",
-    "pug-loader": "^2.3.0",
-    "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.1"
+    "pug": "latest",
+    "pug-loader": "latest",
+    "stylus": "latest",
+    "stylus-loader": "latest"
   }
 }

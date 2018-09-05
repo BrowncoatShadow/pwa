@@ -1,17 +1,4 @@
 module.exports = {
-  build: {
-    vendor: [
-      'vuetify'
-    ],
-    extractCSS: true
-  },
-
-  head: {
-    link: [
-      { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
-    ]
-  },
-
   loading: { color: '#607D8B' },
 
   manifest: {
@@ -20,10 +7,9 @@ module.exports = {
     theme_color: '#607D8B'
   },
 
-  plugins: ['~/plugins/vuetify'],
-
   modules: [
+    '@nuxtjs/axios',
     '@nuxtjs/pwa',
-    '@nuxtjs/axios'
+    ['@nuxtjs/vuetify', {materialIcons: true}]
   ]
 }
